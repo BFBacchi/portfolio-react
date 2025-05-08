@@ -1,0 +1,74 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Pantalla */
+.screen {
+    text-align: center;
+}
+
+/* Logo de Windows XP */
+.logo img {
+    width: 300px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+/* Contenedor de la barra de carga */
+.loading {
+    margin-top: 20px;
+}
+
+.bar {
+    width: 250px;
+    height: 20px;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Indicador animado */
+.indicatorContainer {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    animation: move 1.9s linear infinite;
+}
+
+/* Indicador animado */
+.indicator {
+    
+    
+    width: 15px;
+    margin: 1px;
+    height: 18px;
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(29,29,130,1) 39%, rgba(0,212,255,1) 100%);
+    border-radius: 5px;
+   
+    /*animation: move 1.9s linear infinite;*/
+}
+
+/* Animación de la barra */
+@keyframes move {
+    0% {
+        left: -50px;
+    }
+    100% {
+        left: 250px;
+    }
+}
