@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+ 
+  color: white;
+  /*overflow: hidden;*/
+}
+
+/* Escritorio */
+.desktop {
+  background-image: url("../../assets/Windows-XP-Bliss-Wallpaper-4K-696x464.jpg"); 
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px;
+}

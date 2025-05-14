@@ -1,17 +1,22 @@
 /* Fondo general */
 body {
-    margin: 0;
-    padding: 0;
-    background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     font-family: Arial, sans-serif;
 }
 
 /* Pantalla */
 .screen {
+    width: 100vw;             
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;              /
+    flex-direction: column;     
+    justify-content: center;   
+    align-items: center;        
+    min-height: 100vh;         
+    min-width: 100vw;           
+    box-sizing: border-box;
     text-align: center;
 }
 
